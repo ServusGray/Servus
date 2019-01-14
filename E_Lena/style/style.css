@@ -1,0 +1,322 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-B.ttf)
+}
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf)
+}
+@font-face {
+    font-family: Nexa;
+    src: url(../fonts/NexaRegular.otf)
+}
+@font-face {
+    font-family: Belinda;
+    src: url(../fonts/belinda.otf)
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background: url(../img/bg.jpg) no-repeat; 
+    background-size: cover;
+}
+
+.section {
+    margin: 0 auto; 
+    /*border: 1px solid palevioletred;*/
+    max-width: 960px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: lightslategray;
+}
+
+.logo {
+    padding-top: 66px;
+}
+
+nav {
+    padding-top: 47px;
+}
+
+.head-cont > h1 {
+    margin-top: 80px;
+    font: 65px Ubuntu, bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.head-cont > h3 {
+    position: relative;
+    margin-top: 44px;
+    font: 20px Ubuntu, bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.head-cont > h3:before {
+    content: "";
+    background: orange;
+    position: absolute;
+    display: inline-block;
+    height: 1px;
+    width: 30px;
+}
+
+.head-cont > h3:after {
+    content: "";
+    background: orange;
+    position: absolute;
+    display: inline-block;
+    height: 1px;
+    width: 30px;
+}
+
+.butt {
+    background-color: #66cc99;
+    font: 20px Ubuntu,bold;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 46px;
+    padding: 0 30px;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.butt:hover {
+    background-color: #009966;
+    color: gray;
+} 
+
+.features {
+    text-align: center;
+    background-color: #eaeaeb; 
+}
+
+.col {
+    padding: 0 24px;
+}
+
+.col > h4 {
+    text-transform: uppercase;
+    color: black;
+    font: 20px Ubuntu, bold;
+    padding: 20px 0;
+}
+
+.features-container > .row {
+    display: flex;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 50px 0;
+}
+
+.template {
+    text-align: left;
+    min-height: 527px;
+}
+
+.template-cont > .row,
+.check-it-cont > .row {
+    display: flex;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+
+.col .template-col {
+    width: 50%;
+}
+
+.template-col > img {
+    display: block;
+    width: 265px;
+    height: 160px;
+}
+
+.temp-butt {
+    background-color: #66cc99;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 35px;
+    padding: 0 15px;
+	margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.temp-butt:hover {
+    background-color: #009966;
+    color: gray;
+}
+
+.support {
+    text-align: left;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color: #eaeaeb;
+    /*border: 1px solid palevioletred;*/
+    /*max-width: 960px;*/
+}
+
+.fully-support > img {
+    float: left;
+}
+
+.supp-butt {
+    background-color: #d2d5da;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 35px;
+    padding: 0 15px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.supp-butt:hover {
+    background-color: #999999;
+}
+
+.check-it {
+    text-align: center;
+}
+
+.check-it a {
+    color:#50c3af;
+    text-decoration: none;
+}
+
+.col .check-it-col {
+    width: 33.3%;
+}
+
+.check-it-col > img {
+    max-height: 240px;
+    max-width: 240px;
+}
+.check-it-cont > .row {
+    padding: 60px 0;
+}
+
+.feedback {
+    min-height: 200px;
+    background-color: #eaeaeb;
+}
+
+.feedback-item {
+    width: 50%;
+    float: left;
+}
+
+.feedback-item > img {
+    float: left;
+}
+
+.feedback-butt {
+    background-color: #66cc99;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 35px;
+    padding: 0 15px;
+	margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.feedback-butt:hover {
+    background-color: #009966;
+    color: black;
+}
+
+.line {
+    border: 1px solid lightgray;
+}
+
+.themeforest-cont > img {
+    float: left;
+    max-height: 209px;
+    max-width: 209px;
+}
+
+.themeforest-butt {
+    background-color: #d2d5da;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 35px;
+    padding: 0 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.themeforest-butt:hover {
+    background-color: #999999;
+}
+.themeforest-sub-cont {
+    margin-left: 240px;
+}
+
+.featured-on {
+    background-color: #50c3af;
+    background-size: cover;
+}
+
+.featured-on-cont {
+    text-align: center;
+}
+
+.featured-on-nav-bar {
+    padding: 30px 0;
+}
+
+.featured-on-nav-bar > a {
+    margin: 0 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #cbede7;
+    padding: 0 50px;
+}
+
+.featured-on-nav-bar > a:first-child {
+    font: 26px Belinda;
+    padding-left: 10px;
+}
+
+.featured-on-nav-bar > a:nth-child(2) {
+    font: 26px Nexa;
+}
+
+.featured-on-nav-bar > a:nth-child(3) {
+    font: 26px Cabin;
+}
+
+.featured-on-nav-bar > a:last-child {
+    font: 26px Nexa;
+    font-weight: bold;
+    padding-right: 10px;
+}
